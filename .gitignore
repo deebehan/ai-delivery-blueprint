@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Claude Code / local agent state
+.claude/
+*.local.md
+
+# Node (in case any tooling sneaks in)
+node_modules/
+
+# Outputs / scratch
+/scratch/
+/tmp/
+*.log
